@@ -1,0 +1,31 @@
+body{
+	margin:20px auto;
+	max-width:700px;/*width remains 700 px when we scroll the screen until screen size becomes 
+	less than 700px after that it wil squeze with the screen*/
+	width:80%;
+	border:20px solid #bfbfbf;
+	padding : 20px;
+
+}
+.date{
+	color: #00aaff;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem ;/*rem is unit relative to font size of normal text*/
+}
+.firstpara{
+	border-left:5px solid #bfbfbf;
+	padding-left: 5px;
+}
+p{
+	font-family: Crimson Text;
+}
+h1{
+	font-family: Josefin Sans;
+}
+/* Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
