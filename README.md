@@ -1,2 +1,2 @@
-# imagegallery
-using html and bootstap
+# BlogStyling
+using html and css
